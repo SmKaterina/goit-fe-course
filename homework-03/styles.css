@@ -2,8 +2,9 @@ html{
     box-sizing: border-box;
 }
 *,*::before, *::after{box-sizing:inherit ;}
+
 .wrapper{
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
     margin-bottom: 100px;
   
@@ -12,17 +13,19 @@ body{
     font-family: 'Playfair Display', 'Ubuntu', sans-serif;
   color: #626262;
     line-height: 24px;
+    margin: 0;
   }
   .nav{
+  
       padding: 0 53px;
   }
 
   .site-navigation
   {
-      width: 1200 px;
+     width: 900px;
       margin: 0;
-      padding: 20;
-    font-size: 14px;
+      padding: 20px;
+      font-size:14px;
     list-style: none;
     display: inline-block;
     text-align: center;
@@ -30,7 +33,7 @@ body{
     
   }
   .site-navigation li{
-      margin-left: 154px;
+      margin-right: 154px;
       display: inline-block;
   }
   .site-navigation li:last-child{
@@ -41,18 +44,29 @@ color: #626262;
 font-weight: 700px;
 text-decoration: none;
 line-height: 14px;
+display: block;
+margin: 0;
+
   }
   .features{
+    font-size:0;
     list-style: none;  
+    
     margin: 0;
       padding: 0;
      
   }
+ 
   .features .list-item {
     display: inline-block;
-      width: 520px;
+      width: 450px;
+      margin: 0;
       margin-right: 10px;  
       vertical-align: top;
+      margin-bottom: 10px;
+  }
+  .features .list-item p{
+    font-size:16px;
   }
   .features .list-item:nth-child(2n){
       margin-right: 0;
@@ -62,16 +76,19 @@ line-height: 14px;
       font-weight: 500 ;
       font-family:'Playfair Display', serif ;
       color:#626262;
-      margin: 0;
+      margin: 0px;
+      margin-bottom: 10px;
   }
+
   .features .list-name {
       font-size: 14px;
      color: #c4bfbe ;
      line-height: 17px;
      font-family:'Ubuntu', serif ;
-     margin: 25px;
-     margin-left: 0;
+     margin:25px;
     
+     margin-left: 0;
+     margin-bottom: 10px;
     
   }
   .button {
