@@ -6,7 +6,7 @@ html{
 .wrapper{
     width: 900px;
     margin: 0 auto;
-    font-size:0;
+   
   
 }
 body{
@@ -24,7 +24,7 @@ body{
       padding: 0;
       padding-top: 72px;
       padding-bottom: 98px;
-      font-size:14px;
+      font-size:0;
     list-style: none;
     text-align: center;
     
@@ -37,6 +37,7 @@ body{
   .site-navigation li:last-child{
       margin-right: 0;
   }
+
   .site-navigation a{
 color: #626262;
 font-weight: 700px;
@@ -44,33 +45,33 @@ text-decoration: none;
 line-height: 14px;
 display: block;
 margin: 0;
-
+font-size:14px;
   }
+
   .site-navigation a:hover{color: #03a9f4;}
-  .features{
+
+  .features {
     font-size:0;
-    list-style: none;  
-    
+    list-style: none;      
     margin: 0 ;
       padding: 0;
-     
+     margin-bottom: 130px;
   }
  
-  .features .list-item {
+  .list-item {
     display: inline-block;
       width: 420px;
       margin: 0;
       margin-right: 60px;  
       vertical-align: top;
-      margin-bottom: 130px;
+      
       text-align: left;
-  }
-  .features .list-item p{
-    font-size:16px;
-    margin: 0;
+      font-size:16px;
+ 
     margin-bottom: 34px;
   }
-  .features .list-item:nth-child(2n){
+ 
+  .list-item:nth-child(2n){
       margin-right: 0;
   }
   .features .list-item h3{
@@ -101,7 +102,7 @@ margin: 0;
     background: #ffffff;
     font-size: 14px; 
     padding: 5px 20px; 
-    margin-bottom: 70px;
+    
     margin-top: 0;
   }
   button{
@@ -111,7 +112,5 @@ margin: 0;
     
   }
   button:hover {
-    background: rgba(0,0,0,0);
-  } 
-  
- 
+    background-color: #03a9f4;
+}
