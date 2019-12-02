@@ -101,6 +101,8 @@ font-size:11px;
         margin: 0 ;
           padding: 0;
       }
+      .features-list{padding: 0;
+    }
       .features-list-item {
         font-size: 0;
         float: left;
@@ -149,6 +151,8 @@ font-size:11px;
         list-style-type: none;
         /* Убираем маркеры */
       }
+      .news-list{padding: 0;
+    }
     .news-list-item{
         float:left;
         width: 350px;
@@ -181,6 +185,9 @@ font-size:11px;
         width: 134px;
         height: 3px;
         background: #1abc9c;
+    }
+    .news-list-item:nth-child(3n) {
+        margin-right: 0;
     }
     
     p {
