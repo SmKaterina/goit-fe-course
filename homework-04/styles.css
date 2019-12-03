@@ -91,6 +91,7 @@ font-size:11px;
         height: 7px;
         background-color: #1abc9c;
         margin:auto;
+        display: block;
     }
     .features {
         list-style: none;      
