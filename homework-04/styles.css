@@ -16,6 +16,10 @@ body{
     padding-top: 40px;
     padding-bottom: 100px;
 }
+.page-header{
+    padding-top: 38px;
+    padding-bottom: 110px;
+}
 .clearfix::after{
     content:'';
     display: table;
@@ -35,8 +39,6 @@ body{
     text-decoration: none;
     font-weight: 300;
     margin: 0;
-    padding-top: 38px;
-    padding-bottom: 110px;
     }
     .logo::first-letter {
         font-weight: 900;
@@ -56,8 +58,6 @@ body{
     padding: 0;
     font-size: 14px;
     list-style: none;
-    padding-top: 38px;
-    padding-bottom: 110px;
     }
     .list li{
         float:left;
@@ -87,13 +87,9 @@ font-size:11px;
     }
     .features-title::after{
         content:'';
-        position: absolute;
         width: 164px;
         height: 7px;
         background-color: #1abc9c;
-        bottom:-32px;
-        right: 0;
-        left: 0;
         margin:auto;
     }
     .features {
@@ -101,7 +97,9 @@ font-size:11px;
         margin: 0 ;
           padding: 0;
       }
-      .features-list{padding: 0;
+      .features-list{
+          padding: 0;
+        margin: 0;
     }
       .features-list-item {
         font-size: 0;
@@ -112,6 +110,7 @@ font-size:11px;
       }
       .features-list-item:nth-child(4n) {
         margin-right: 0;
+        margin-bottom: 0;
     }
       .features-list-name {
         background-color: #323232;
@@ -137,13 +136,12 @@ font-size:11px;
         font-family: 'Roboto', sans-serif;
         font-weight: 900;
     }
-    .features-list-item:hover .product-list-name {
-        background-color: #1abc9c;
-    }
-    
-    .features-list-item:hover .product-list-price {
-        background-color: #7fd9c7;
-    }
+    .features-list-item a:hover .features-list-name{
+        background-color: beige;
+        }
+        .features-list-item a:hover .features-list-price{
+        background-color: cornflowerblue
+        }
     img {
         display: block;
     }
@@ -196,7 +194,7 @@ font-size:11px;
         margin: 0;
     }
     
-    .button {
+    .readme {
         padding: 20px 40px;
         width: 160px;
         background-color: #4ec6ab;
@@ -207,7 +205,7 @@ font-size:11px;
         margin-top: 14px;
     }
     
-    .button a {
+    .readme a {
         list-style: none;
         text-decoration: none;
         color: #ffffff;
