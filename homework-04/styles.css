@@ -148,7 +148,7 @@ font-size:11px;
     }
     li {
         list-style-type: none;
-   
+        /* Убираем маркеры */
       }
       .news-list{padding: 0;
     }
