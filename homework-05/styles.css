@@ -292,8 +292,8 @@ font-size:11px;
         height: 48px;
         border-style: solid;
         background-color: transparent;
-        background-image: url(file:///D:/HTML/https://github.com/SmKaterina/goit-fe-course/blob/master/homework-05/img/heart.pnggoit-fe-course/homework-05/img/arrows.png),
-        url(file:///D:/HTML/goit-fe-course/homework-05/img/arrows.png),
+        background-image: url(https://github.com/SmKaterina/goit-fe-course/blob/master/homework-05/img/heart.png),
+        url(https://github.com/SmKaterina/goit-fe-course/blob/master/homework-05/img/arrows.png),
         url(https://github.com/SmKaterina/goit-fe-course/blob/master/homework-05/img/clock.png);
         background-repeat: no-repeat;
         background-position: center;
