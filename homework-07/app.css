@@ -179,20 +179,20 @@ img {
 }
 
 .icon-basket::before {
-    background-image: url('../img/Icon-Basket.png');
+    background-image: url('./img/Icon-Basket.png');
 }
 
 .icon-laptop::before {
-    background-image: url('../img/Icon-Laptop.png');
+    background-image: url('./img/Icon-Laptop.png');
 }
 
 .icon-locked::before {
-    background-image: url('../img/Icon-Locked.png');
+    background-image: url('./img/Icon-Locked.png');
 }
 
 .second-section {
     background-color: #222222;
-    background-image: url('../img/MapImage.png');
+    background-image: url('./img/MapImage.png');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: bottom right;
@@ -271,4 +271,3 @@ textarea:focus:invalid {
 input[name="subject"] {
     outline: none;
 }
- 
