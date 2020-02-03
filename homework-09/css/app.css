@@ -137,11 +137,11 @@ h1 {
 }
 
 .team-list .col-12:nth-of-type(2) .team-list-item::after {
-    content: url('../img/tube.png');
+    content: url('../img/Tube.png');
 }
 
 .team-list .col-12:nth-of-type(3) .team-list-item::after {
-    content: url('../img/cup.png');
+    content: url('../img/Cup.png');
 }
 
 .team-list .col-12:nth-of-type(4) .team-list-item::after {
