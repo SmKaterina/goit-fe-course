@@ -35,26 +35,27 @@ html {
     background-repeat: no-repeat;
     background-position: center;
   }
-  
-  .link {
-    display: block;
-    text-decoration: none;
-  }
-  
+
   .header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 170px;
   }
-  
-  .header-logo {
+
+   .header-logo {
     display: inline-block;
     font-size: 30px;
     line-height: 36px;
     font-weight: bold;
     margin: 0;
   }
+
+  .link {
+    display: block;
+    text-decoration: none;
+  }
+  
   
   .header-logo__link {
     color: #ffffff;
@@ -85,7 +86,7 @@ html {
   .header-navigation a {
     position: relative;
     color: #ffffff;
-    transition: color 200ms linear;
+    transition: color 150ms linear;
   }
   
   .header-navigation a:hover,
@@ -196,13 +197,13 @@ html {
   }
   
   .features-list-name {
+    margin: 0;
+    margin-bottom: 14px;
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
     text-transform: uppercase;
     color: #333333;
-    margin: 0;
-    margin-bottom: 14px;
   }
   
   .features-list-item {
@@ -250,7 +251,7 @@ html {
   .features-list-item.image::before {
     content: url(../img/image.svg);
   }
-  
+
   
   .team {
     padding-bottom: 86px;
@@ -271,13 +272,7 @@ html {
     padding: 0;
     list-style: none;
   }
-  
-  .team-list-item p {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-  }
-  
+
   .team-list-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -285,6 +280,13 @@ html {
     color: #333333;
     margin-bottom: 9px;
   }
+
+  .team-list-item p {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
   
   .team-list img {
     padding-bottom: 28px;
@@ -352,9 +354,9 @@ html {
   
   .hover__icon {
     display: block;
-    padding: 15px;
     width: 56px;
     height: 56px;
+    padding: 15px;
     fill: rgb(243, 129, 129);
     background-position: center;
     background-repeat: no-repeat;
@@ -368,8 +370,8 @@ html {
   
   .footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     height: 64px;
     border-top: 1px solid rgb(229, 229, 229);
   }
