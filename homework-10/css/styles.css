@@ -1,72 +1,68 @@
 html {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    -webkit-box-sizing: inherit;
-            box-sizing: inherit;
-  }
-  
-  body {
-    font-family: "Montserrat", sans-serif;
-    color: #999999;
-    font-size: 15px;
-    line-height: 24px;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .container {
-    width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .header {
-    max-width: 100%;
-    padding: 29px 0 230px;
-    margin-bottom: 44px;
-    background-image: url('../img/Layer15-min.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .link {
-    display: block;
-    text-decoration: none;
-  }
-  
-  .list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-bottom: 170px;
-  }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family:$main-font-stack;
+  color: #999999;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.link {
+  display: block;
+  text-decoration: none;
+}
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ .header {
+  max-width: 100%;
+  padding: 29px 0 230px;
+  margin-bottom: 44px;
+  background-image: url('../img/Layer15-min.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ .header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 170px;
+}
   
   .header__logo {
     display: inline-block;
@@ -103,12 +99,15 @@ html {
     -webkit-transition: color 200ms linear;
     -o-transition: color 200ms linear;
     transition: color 200ms linear;
+
+    .header__navigation a:hover,
+  .header__navigation a:focus{  color: #fbdd89;
+    fill: #fbdd89;}
   }
   
-  .header__navigation a:hover,
-  .header__navigation a:focus,
-  .header__navigation-icon:focus,
-  .header__navigation-icon:hover {
+  
+  .header__navigation-icon:hover,
+  .header__navigation-icon:focus {
     color: #fbdd89;
     fill: #fbdd89;
   }
@@ -129,9 +128,9 @@ html {
   .header__text {
     font-family: "Kaushan Script", cursive;
     text-align: center;
-    color: #ffffff; 
-    line-height: 1.2;
+    color: #ffffff;
     font-size: 72px;
+    line-height: 1.2;
     margin: 0;
     padding-bottom: 32px;
   }
@@ -140,13 +139,12 @@ html {
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
-    font-size: 150px; 
-    padding-bottom: 126px;
-    font-weight: bold;
+    font-size: 150px;
     line-height: 140px;
+    font-weight: bold;
     margin: 0 auto;
     width: 820px;
- 
+    padding-bottom: 126px;
   }
   
   .header__button {
